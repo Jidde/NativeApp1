@@ -7,6 +7,26 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+
+/*
+//  AppDelegate.m
+
+    
+    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+        [[FBSDKApplicationDelegate sharedInstance] application:application
+            didFinishLaunchingWithOptions:launchOptions];
+        return YES;
+        }
+        
+        - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+            return [[FBSDKApplicationDelegate sharedInstance] application:application
+                openURL:url
+                sourceApplication:sourceApplication
+                annotation:annotation
+            ];
+}
+*/
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +36,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        return true
+//        return FBSDKApplication
+
     }
 
     func applicationWillResignActive(application: UIApplication) {
