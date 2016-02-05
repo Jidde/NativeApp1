@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC26A4A11C5FDB4A0085E16A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC26A4A01C5FDB4A0085E16A /* AppDelegate.swift */; };
+		AC26A4A31C5FDB4A0085E16A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC26A4A21C5FDB4A0085E16A /* MasterViewController.swift */; };
+		AC26A4A61C5FDB4A0085E16A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC26A4A41C5FDB4A0085E16A /* Main.storyboard */; };
+		AC26A4A81C5FDB4A0085E16A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC26A4A71C5FDB4A0085E16A /* Assets.xcassets */; };
+		AC26A4AB1C5FDB4A0085E16A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC26A4A91C5FDB4A0085E16A /* LaunchScreen.storyboard */; };
+		AC26A4B61C5FDB4A0085E16A /* AppStudio1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC26A4B51C5FDB4A0085E16A /* AppStudio1Tests.swift */; };
+		AC26A4C11C5FDB4A0085E16A /* AppStudio1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC26A4C01C5FDB4A0085E16A /* AppStudio1UITests.swift */; };
+		ACD84EC31C635149007B6E5D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD84EC21C635149007B6E5D /* FBSDKCoreKit.framework */; };
+		ACD84EC51C635162007B6E5D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD84EC41C635162007B6E5D /* FBSDKLoginKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC26A4B21C5FDB4A0085E16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC26A4951C5FDB4A0085E16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC26A49C1C5FDB4A0085E16A;
+			remoteInfo = AppStudio1;
+		};
+		AC26A4BD1C5FDB4A0085E16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC26A4951C5FDB4A0085E16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC26A49C1C5FDB4A0085E16A;
+			remoteInfo = AppStudio1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC26A49D1C5FDB4A0085E16A /* Heartbeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heartbeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC26A4A01C5FDB4A0085E16A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC26A4A21C5FDB4A0085E16A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		AC26A4A51C5FDB4A0085E16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC26A4A71C5FDB4A0085E16A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC26A4AA1C5FDB4A0085E16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC26A4AC1C5FDB4A0085E16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC26A4B11C5FDB4A0085E16A /* Heartbeat.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Heartbeat.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC26A4B51C5FDB4A0085E16A /* AppStudio1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStudio1Tests.swift; sourceTree = "<group>"; };
+		AC26A4B71C5FDB4A0085E16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC26A4BC1C5FDB4A0085E16A /* Heartbeat.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Heartbeat.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC26A4C01C5FDB4A0085E16A /* AppStudio1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStudio1UITests.swift; sourceTree = "<group>"; };
+		AC26A4C21C5FDB4A0085E16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD84EC21C635149007B6E5D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		ACD84EC41C635162007B6E5D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC26A49A1C5FDB4A0085E16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD84EC31C635149007B6E5D /* FBSDKCoreKit.framework in Frameworks */,
+				ACD84EC51C635162007B6E5D /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC26A4AE1C5FDB4A0085E16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC26A4B91C5FDB4A0085E16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC26A4941C5FDB4A0085E16A = {
+			isa = PBXGroup;
+			children = (
+				AC26A49F1C5FDB4A0085E16A /* AppStudio1 */,
+				AC26A4B41C5FDB4A0085E16A /* AppStudio1Tests */,
+				AC26A4BF1C5FDB4A0085E16A /* AppStudio1UITests */,
+				AC26A49E1C5FDB4A0085E16A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC26A49E1C5FDB4A0085E16A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC26A49D1C5FDB4A0085E16A /* Heartbeat.app */,
+				AC26A4B11C5FDB4A0085E16A /* Heartbeat.xctest */,
+				AC26A4BC1C5FDB4A0085E16A /* Heartbeat.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC26A49F1C5FDB4A0085E16A /* AppStudio1 */ = {
+			isa = PBXGroup;
+			children = (
+				ACD84EC61C635780007B6E5D /* Frameworks */,
+				AC26A4A01C5FDB4A0085E16A /* AppDelegate.swift */,
+				AC26A4A21C5FDB4A0085E16A /* MasterViewController.swift */,
+				AC26A4A41C5FDB4A0085E16A /* Main.storyboard */,
+				AC26A4A71C5FDB4A0085E16A /* Assets.xcassets */,
+				AC26A4A91C5FDB4A0085E16A /* LaunchScreen.storyboard */,
+				AC26A4AC1C5FDB4A0085E16A /* Info.plist */,
+			);
+			path = AppStudio1;
+			sourceTree = "<group>";
+		};
+		AC26A4B41C5FDB4A0085E16A /* AppStudio1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AC26A4B51C5FDB4A0085E16A /* AppStudio1Tests.swift */,
+				AC26A4B71C5FDB4A0085E16A /* Info.plist */,
+			);
+			path = AppStudio1Tests;
+			sourceTree = "<group>";
+		};
+		AC26A4BF1C5FDB4A0085E16A /* AppStudio1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC26A4C01C5FDB4A0085E16A /* AppStudio1UITests.swift */,
+				AC26A4C21C5FDB4A0085E16A /* Info.plist */,
+			);
+			path = AppStudio1UITests;
+			sourceTree = "<group>";
+		};
+		ACD84EC61C635780007B6E5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACD84EC41C635162007B6E5D /* FBSDKLoginKit.framework */,
+				ACD84EC21C635149007B6E5D /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC26A49C1C5FDB4A0085E16A /* Heartbeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC26A4C51C5FDB4A0085E16A /* Build configuration list for PBXNativeTarget "Heartbeat" */;
+			buildPhases = (
+				AC26A4991C5FDB4A0085E16A /* Sources */,
+				AC26A49A1C5FDB4A0085E16A /* Frameworks */,
+				AC26A49B1C5FDB4A0085E16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Heartbeat;
+			productName = AppStudio1;
+			productReference = AC26A49D1C5FDB4A0085E16A /* Heartbeat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC26A4B01C5FDB4A0085E16A /* HeartbeatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC26A4C81C5FDB4A0085E16A /* Build configuration list for PBXNativeTarget "HeartbeatTests" */;
+			buildPhases = (
+				AC26A4AD1C5FDB4A0085E16A /* Sources */,
+				AC26A4AE1C5FDB4A0085E16A /* Frameworks */,
+				AC26A4AF1C5FDB4A0085E16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC26A4B31C5FDB4A0085E16A /* PBXTargetDependency */,
+			);
+			name = HeartbeatTests;
+			productName = AppStudio1Tests;
+			productReference = AC26A4B11C5FDB4A0085E16A /* Heartbeat.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC26A4BB1C5FDB4A0085E16A /* HeartbeatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC26A4CB1C5FDB4A0085E16A /* Build configuration list for PBXNativeTarget "HeartbeatUITests" */;
+			buildPhases = (
+				AC26A4B81C5FDB4A0085E16A /* Sources */,
+				AC26A4B91C5FDB4A0085E16A /* Frameworks */,
+				AC26A4BA1C5FDB4A0085E16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC26A4BE1C5FDB4A0085E16A /* PBXTargetDependency */,
+			);
+			name = HeartbeatUITests;
+			productName = AppStudio1UITests;
+			productReference = AC26A4BC1C5FDB4A0085E16A /* Heartbeat.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC26A4951C5FDB4A0085E16A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jidde Koekoek";
+				TargetAttributes = {
+					AC26A49C1C5FDB4A0085E16A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AC26A4B01C5FDB4A0085E16A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AC26A49C1C5FDB4A0085E16A;
+					};
+					AC26A4BB1C5FDB4A0085E16A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AC26A49C1C5FDB4A0085E16A;
+					};
+				};
+			};
+			buildConfigurationList = AC26A4981C5FDB4A0085E16A /* Build configuration list for PBXProject "Heartbeat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC26A4941C5FDB4A0085E16A;
+			productRefGroup = AC26A49E1C5FDB4A0085E16A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC26A49C1C5FDB4A0085E16A /* Heartbeat */,
+				AC26A4B01C5FDB4A0085E16A /* HeartbeatTests */,
+				AC26A4BB1C5FDB4A0085E16A /* HeartbeatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC26A49B1C5FDB4A0085E16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC26A4AB1C5FDB4A0085E16A /* LaunchScreen.storyboard in Resources */,
+				AC26A4A81C5FDB4A0085E16A /* Assets.xcassets in Resources */,
+				AC26A4A61C5FDB4A0085E16A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC26A4AF1C5FDB4A0085E16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC26A4BA1C5FDB4A0085E16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC26A4991C5FDB4A0085E16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC26A4A31C5FDB4A0085E16A /* MasterViewController.swift in Sources */,
+				AC26A4A11C5FDB4A0085E16A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC26A4AD1C5FDB4A0085E16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC26A4B61C5FDB4A0085E16A /* AppStudio1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC26A4B81C5FDB4A0085E16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC26A4C11C5FDB4A0085E16A /* AppStudio1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC26A4B31C5FDB4A0085E16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC26A49C1C5FDB4A0085E16A /* Heartbeat */;
+			targetProxy = AC26A4B21C5FDB4A0085E16A /* PBXContainerItemProxy */;
+		};
+		AC26A4BE1C5FDB4A0085E16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC26A49C1C5FDB4A0085E16A /* Heartbeat */;
+			targetProxy = AC26A4BD1C5FDB4A0085E16A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC26A4A41C5FDB4A0085E16A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC26A4A51C5FDB4A0085E16A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC26A4A91C5FDB4A0085E16A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC26A4AA1C5FDB4A0085E16A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC26A4C31C5FDB4A0085E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC26A4C41C5FDB4A0085E16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC26A4C61C5FDB4A0085E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppStudio1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.AppStudio1;
+				PRODUCT_NAME = Heartbeat;
+			};
+			name = Debug;
+		};
+		AC26A4C71C5FDB4A0085E16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppStudio1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.AppStudio1;
+				PRODUCT_NAME = Heartbeat;
+			};
+			name = Release;
+		};
+		AC26A4C91C5FDB4A0085E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AppStudio1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.AppStudio1Tests;
+				PRODUCT_NAME = Heartbeat;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heartbeat.app/Heartbeat";
+			};
+			name = Debug;
+		};
+		AC26A4CA1C5FDB4A0085E16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AppStudio1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.AppStudio1Tests;
+				PRODUCT_NAME = Heartbeat;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heartbeat.app/Heartbeat";
+			};
+			name = Release;
+		};
+		AC26A4CC1C5FDB4A0085E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AppStudio1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.AppStudio1UITests;
+				PRODUCT_NAME = Heartbeat;
+				TEST_TARGET_NAME = AppStudio1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AC26A4CD1C5FDB4A0085E16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AppStudio1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.AppStudio1UITests;
+				PRODUCT_NAME = Heartbeat;
+				TEST_TARGET_NAME = AppStudio1;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC26A4981C5FDB4A0085E16A /* Build configuration list for PBXProject "Heartbeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC26A4C31C5FDB4A0085E16A /* Debug */,
+				AC26A4C41C5FDB4A0085E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC26A4C51C5FDB4A0085E16A /* Build configuration list for PBXNativeTarget "Heartbeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC26A4C61C5FDB4A0085E16A /* Debug */,
+				AC26A4C71C5FDB4A0085E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC26A4C81C5FDB4A0085E16A /* Build configuration list for PBXNativeTarget "HeartbeatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC26A4C91C5FDB4A0085E16A /* Debug */,
+				AC26A4CA1C5FDB4A0085E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC26A4CB1C5FDB4A0085E16A /* Build configuration list for PBXNativeTarget "HeartbeatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC26A4CC1C5FDB4A0085E16A /* Debug */,
+				AC26A4CD1C5FDB4A0085E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC26A4951C5FDB4A0085E16A /* Project object */;
+}
