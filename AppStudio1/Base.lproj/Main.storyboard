@@ -6,10 +6,10 @@
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Master View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Heartbeat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MasterViewController" customModule="Heartbeat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -25,11 +25,11 @@
                                     <constraint firstAttribute="width" secondItem="w0C-7v-QcZ" secondAttribute="height" multiplier="48:41" id="fDp-3h-XJK"/>
                                 </constraints>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="mqt-Gd-kbo" appends="YES" id="CRi-M4-ry5"/>
+                                    <outletCollection property="gestureRecognizers" destination="RJ8-Tv-lxV" appends="YES" id="lgS-e6-yJa"/>
                                 </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Heartbeat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Zf-Ov-clh">
-                                <rect key="frame" x="261" y="20" width="78" height="21"/>
+                                <rect key="frame" x="261" y="20" width="77.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -40,38 +40,48 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valentijnsdag" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AHv-8V-ZD4">
+                                <rect key="frame" x="20" y="563" width="560" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="XEg-H6-cKw" firstAttribute="top" secondItem="w0C-7v-QcZ" secondAttribute="bottom" constant="8" symbolic="YES" id="3VO-Yx-TXy"/>
                             <constraint firstItem="w0C-7v-QcZ" firstAttribute="centerX" secondItem="4Zf-Ov-clh" secondAttribute="centerX" id="4qz-Hd-YQz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AHv-8V-ZD4" secondAttribute="bottom" constant="20" id="BLa-uD-VOM"/>
+                            <constraint firstItem="AHv-8V-ZD4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JbW-ef-CAs"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XEg-H6-cKw" secondAttribute="bottom" constant="169" id="KaT-ms-GWd"/>
+                            <constraint firstItem="AHv-8V-ZD4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="PyL-n4-Shn"/>
                             <constraint firstItem="4Zf-Ov-clh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="axR-0L-Vc4"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="w0C-7v-QcZ" secondAttribute="bottom" constant="198" id="cvE-cb-BCM"/>
                             <constraint firstItem="w0C-7v-QcZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="d0E-RQ-TGn"/>
+                            <constraint firstAttribute="trailing" secondItem="AHv-8V-ZD4" secondAttribute="trailing" constant="20" id="fEF-ox-HfU"/>
                             <constraint firstItem="4Zf-Ov-clh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="0.5" id="fNK-MM-aL9"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4Zf-Ov-clh" secondAttribute="bottom" constant="559" id="rcC-C3-XDL"/>
                             <constraint firstItem="XEg-H6-cKw" firstAttribute="centerX" secondItem="w0C-7v-QcZ" secondAttribute="centerX" id="wuI-Wh-31i"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="heartImageView" destination="w0C-7v-QcZ" id="xjg-Pq-Arn"/>
+                        <outlet property="valentijnLabel" destination="AHv-8V-ZD4" id="f5l-tM-JPt"/>
                         <segue destination="PXV-S2-uON" kind="presentation" identifier="loginFacebook" id="EMM-hx-pRW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="mqt-Gd-kbo">
+                <tapGestureRecognizer id="RJ8-Tv-lxV">
                     <connections>
-                        <action selector="vibrateOnTap:" destination="BYZ-38-t0r" id="dL3-fx-vJA"/>
+                        <action selector="vibrateOnTap:" destination="BYZ-38-t0r" id="SfT-ce-6Zi"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="53" y="281"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="eFv-64-yzF">
             <objects>
-                <viewController id="PXV-S2-uON" sceneMemberID="viewController">
+                <viewController id="PXV-S2-uON" customClass="LoginViewController" customModule="Heartbeat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Rbq-nb-dpp"/>
                         <viewControllerLayoutGuide type="bottom" id="gQ1-za-inn"/>
@@ -81,20 +91,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login with Facebook" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXs-fW-ttf">
-                                <rect key="frame" x="221" y="20" width="158" height="21"/>
+                                <rect key="frame" x="221" y="99" width="158" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="NXs-fW-ttf" secondAttribute="height" multiplier="158:21" id="mUw-De-vak"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.23137254900000001" green="0.34901960780000002" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="NXs-fW-ttf" firstAttribute="leading" secondItem="Qvw-8d-we4" secondAttribute="leading" constant="221" id="6dU-r7-d7L"/>
-                            <constraint firstItem="NXs-fW-ttf" firstAttribute="top" secondItem="Rbq-nb-dpp" secondAttribute="bottom" id="Bfq-ko-iZz"/>
-                            <constraint firstAttribute="trailing" secondItem="NXs-fW-ttf" secondAttribute="trailing" constant="221" id="beE-9g-cgo"/>
+                            <constraint firstItem="NXs-fW-ttf" firstAttribute="centerX" secondItem="Qvw-8d-we4" secondAttribute="centerX" id="4pg-Vb-TFq"/>
+                            <constraint firstItem="NXs-fW-ttf" firstAttribute="top" secondItem="Rbq-nb-dpp" secondAttribute="bottom" constant="79" id="jgH-1T-wkw"/>
                         </constraints>
                     </view>
                 </viewController>

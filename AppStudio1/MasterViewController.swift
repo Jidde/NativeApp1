@@ -11,20 +11,25 @@ import AudioToolbox.AudioServices
 
 class MasterViewController: UIViewController {
 
+    // ImageView for Heart image
+    // Label for time till Valentine
+    
     @IBOutlet weak var heartImageView: UIImageView!
+    @IBOutlet weak var valentijnLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
- /*
-        func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-            if segue.identifier == "loginFacebook" {
-                let  = segue.destinationViewController as!
-            }
-        }
-                
-        performSegueWithIdentifier("loginFacebook", sender: AnyObject?)
-*/
+        
+        // Set text for label to the correct remaining time
+        let text = Countdown.countdown()
+        self.valentijnLabel.text = text
+
+        // Perform modal segue to Facebook login screen
+        
+        dispatch_async(dispatch_get_main_queue()) {
+            self.performSegueWithIdentifier("loginFacebook", sender: self)
+       }
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,10 +37,11 @@ class MasterViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    // Vibrate phone when Heart image is tapped
     @IBAction func vibrateOnTap(sender: AnyObject) {
-        AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+            AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
     }
+
     
 }
 

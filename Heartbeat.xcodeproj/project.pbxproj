@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC1EF5EE1C64CE39006E153B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1EF5EC1C64CE39006E153B /* FBSDKCoreKit.framework */; };
+		AC1EF5EF1C64CE39006E153B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1EF5ED1C64CE39006E153B /* FBSDKLoginKit.framework */; };
+		AC1EF5F31C64DA38006E153B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1EF5F21C64DA38006E153B /* LoginViewController.swift */; };
+		AC1EF5F51C64E81C006E153B /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1EF5F41C64E81C006E153B /* Logic.swift */; };
+		AC1EF5F71C67C434006E153B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC1EF5F61C67C434006E153B /* Default-568h@2x.png */; };
 		AC26A4A11C5FDB4A0085E16A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC26A4A01C5FDB4A0085E16A /* AppDelegate.swift */; };
 		AC26A4A31C5FDB4A0085E16A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC26A4A21C5FDB4A0085E16A /* MasterViewController.swift */; };
 		AC26A4A61C5FDB4A0085E16A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC26A4A41C5FDB4A0085E16A /* Main.storyboard */; };
@@ -14,8 +19,6 @@
 		AC26A4AB1C5FDB4A0085E16A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC26A4A91C5FDB4A0085E16A /* LaunchScreen.storyboard */; };
 		AC26A4B61C5FDB4A0085E16A /* AppStudio1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC26A4B51C5FDB4A0085E16A /* AppStudio1Tests.swift */; };
 		AC26A4C11C5FDB4A0085E16A /* AppStudio1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC26A4C01C5FDB4A0085E16A /* AppStudio1UITests.swift */; };
-		ACD84EC31C635149007B6E5D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD84EC21C635149007B6E5D /* FBSDKCoreKit.framework */; };
-		ACD84EC51C635162007B6E5D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD84EC41C635162007B6E5D /* FBSDKLoginKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC1EF5EC1C64CE39006E153B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		AC1EF5ED1C64CE39006E153B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		AC1EF5F21C64DA38006E153B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AC1EF5F41C64E81C006E153B /* Logic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logic.swift; sourceTree = "<group>"; };
+		AC1EF5F61C67C434006E153B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AC26A49D1C5FDB4A0085E16A /* Heartbeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heartbeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC26A4A01C5FDB4A0085E16A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC26A4A21C5FDB4A0085E16A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -49,8 +57,6 @@
 		AC26A4BC1C5FDB4A0085E16A /* Heartbeat.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Heartbeat.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC26A4C01C5FDB4A0085E16A /* AppStudio1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStudio1UITests.swift; sourceTree = "<group>"; };
 		AC26A4C21C5FDB4A0085E16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACD84EC21C635149007B6E5D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		ACD84EC41C635162007B6E5D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD84EC31C635149007B6E5D /* FBSDKCoreKit.framework in Frameworks */,
-				ACD84EC51C635162007B6E5D /* FBSDKLoginKit.framework in Frameworks */,
+				AC1EF5EF1C64CE39006E153B /* FBSDKLoginKit.framework in Frameworks */,
+				AC1EF5EE1C64CE39006E153B /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,7 @@
 		AC26A4941C5FDB4A0085E16A = {
 			isa = PBXGroup;
 			children = (
+				AC1EF5F61C67C434006E153B /* Default-568h@2x.png */,
 				AC26A49F1C5FDB4A0085E16A /* AppStudio1 */,
 				AC26A4B41C5FDB4A0085E16A /* AppStudio1Tests */,
 				AC26A4BF1C5FDB4A0085E16A /* AppStudio1UITests */,
@@ -106,6 +113,8 @@
 				ACD84EC61C635780007B6E5D /* Frameworks */,
 				AC26A4A01C5FDB4A0085E16A /* AppDelegate.swift */,
 				AC26A4A21C5FDB4A0085E16A /* MasterViewController.swift */,
+				AC1EF5F41C64E81C006E153B /* Logic.swift */,
+				AC1EF5F21C64DA38006E153B /* LoginViewController.swift */,
 				AC26A4A41C5FDB4A0085E16A /* Main.storyboard */,
 				AC26A4A71C5FDB4A0085E16A /* Assets.xcassets */,
 				AC26A4A91C5FDB4A0085E16A /* LaunchScreen.storyboard */,
@@ -135,8 +144,8 @@
 		ACD84EC61C635780007B6E5D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ACD84EC41C635162007B6E5D /* FBSDKLoginKit.framework */,
-				ACD84EC21C635149007B6E5D /* FBSDKCoreKit.framework */,
+				AC1EF5EC1C64CE39006E153B /* FBSDKCoreKit.framework */,
+				AC1EF5ED1C64CE39006E153B /* FBSDKLoginKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -246,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC26A4AB1C5FDB4A0085E16A /* LaunchScreen.storyboard in Resources */,
+				AC1EF5F71C67C434006E153B /* Default-568h@2x.png in Resources */,
 				AC26A4A81C5FDB4A0085E16A /* Assets.xcassets in Resources */,
 				AC26A4A61C5FDB4A0085E16A /* Main.storyboard in Resources */,
 			);
@@ -272,6 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1EF5F51C64E81C006E153B /* Logic.swift in Sources */,
+				AC1EF5F31C64DA38006E153B /* LoginViewController.swift in Sources */,
 				AC26A4A31C5FDB4A0085E16A /* MasterViewController.swift in Sources */,
 				AC26A4A11C5FDB4A0085E16A /* AppDelegate.swift in Sources */,
 			);
@@ -413,6 +425,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppStudio1",
+				);
 				INFOPLIST_FILE = AppStudio1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.AppStudio1;
@@ -424,6 +440,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppStudio1",
+				);
 				INFOPLIST_FILE = AppStudio1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.AppStudio1;
